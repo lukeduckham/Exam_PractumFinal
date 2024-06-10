@@ -2,6 +2,13 @@ package com.example.exam_practumfinal
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Parcel
+import android.os.Parcelable
+import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import java.time.DayOfWeek
 
 class MainPage2_weather : AppCompatActivity() {
@@ -41,4 +48,7 @@ class MainPage2_weather : AppCompatActivity() {
             )
 
         }}}
+
+
+
 
