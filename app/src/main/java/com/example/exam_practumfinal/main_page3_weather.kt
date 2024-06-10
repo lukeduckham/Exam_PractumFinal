@@ -2,25 +2,25 @@ package com.example.exam_practumfinal
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TableLayout
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 class main_page3_weather : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_page3_weather)
 
-        fun main(args: Array<String>) {
-            val DayOfWeek = arrayOf<String>("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+        data class WeatherDays(
+            val Days: String,
+            val minTemp: Float,
+            val maxTemp: Float,
+            val WeatherCondition: String
+        )
 
 
 
-            fun main(args: Array<String>) {
-                var i = 7;
-                do{
-                    println(i)
-                    i--
-                }while(i > 0)
-            }
 
 
     }
-}}
+}
